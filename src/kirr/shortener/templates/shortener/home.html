@@ -1,0 +1,8 @@
+<div style="width: 800px;margin: 0 auto;">
+    <h1>Hi there</h1>
+    <form action="." method="POST">
+        {% csrf_token %}
+        <input type="text" name="url" placeholder="Enter Your Url">
+        <input type="submit" value="Shorten">
+    </form>
+</div>
